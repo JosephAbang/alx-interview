@@ -3,11 +3,13 @@
     Pascal's Triangle Generation Module
 """
 
+
 def pascal_triangle(n):
     """
     Generates Pascal's Triangle (as a list of lists).
     Returns an empty list if 'n' is less than or equal to 0.
     """
+
     # Check if the input number is valid
     if n <= 0:
         return []
